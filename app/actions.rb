@@ -1,7 +1,3 @@
-# get '/' do 
-#     File.read(File.join('app/views','index.html'))
-# end
-
 
 def humanized_time_ago(minute_num)
     if minute_num>=60
